@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.list-group {
+  display: flex;
+  row-gap: 15px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-group-item + .list-group-item {
+  border-top-width: 1px;
+}
+
+.form-control, .btn:focus, .btn:active, .form-check-input {
+  outline: none !important;
+  box-shadow: none !important;
+}
