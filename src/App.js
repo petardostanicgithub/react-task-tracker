@@ -1,5 +1,5 @@
 import {useState, useRef, useEffect} from "react";
-import Tasks from "./Components/Tasks";
+import Tasks from "./Tasks";
 import {v4 as uuidv4} from "uuid"
 
 const LOCAL_STORAGE_KEY = 'react-task-tracker-tasks'
